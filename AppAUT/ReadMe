@@ -1,0 +1,31 @@
+# App-Test
+**Selenium and BrowserMob Proxy Integration**
+This project demonstrates how to use Selenium WebDriver in conjunction with BrowserMob Proxy to capture and analyze network traffic during browser automation. The provided example sets up a local server, configures BrowserMob Proxy, and performs network traffic analysis using Selenium.
+
+**Prerequisites**
+
+****Java Development Kit (JDK):** Ensure that Java is installed on your machine. You can download it from the Oracle JDK or OpenJDK.
+
+**Maven**: This project uses Maven for dependency management. Install Maven from the Apache Maven website.
+
+**ChromeDriver:** Download the appropriate version of ChromeDriver for your operating system from the ChromeDriver download page.
+
+**BrowserMob Proxy:** This project uses BrowserMob Proxy for capturing network traffic. The dependency will be managed by Maven.
+
+**Execution**
+
+Compile and Run the Code
+
+Compile and run the Java code using Maven or your IDE.
+
+To compile and run using Maven:
+
+**Verify Output**
+
+The program will:
+
+Start the BrowserMob Proxy server.
+Configure Selenium to use BrowserMob Proxy.
+Navigate to http://localhost:8080 (make sure your local server is running on this port).
+Capture network traffic and analyze it.
+Print the response status and body of specific network requests.
